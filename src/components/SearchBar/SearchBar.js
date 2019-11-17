@@ -1,25 +1,21 @@
 import React, {Component} from 'react';
 import './SearchBar.css';
 
+
 class SearchBar extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            term: '0'
-        }
-        this.handleChange= this.handleChange.bind(this)
+        this.getNumbers= this.getNumbers.bind(this)
     }
-    handleChange(event){
-        console.log(this);
-        this.setState({term: event.target.value});
+    getNumbers(){
+        let A =this.props.Rediet;
+        return A;
     }
     render() {
         return (
             <div className="SearchBar">
-
-
                 <div className='SearchBar-field' >
-                    <input className='searchBar' onChange={this.handleChange} readOnly/>
+                    <input className='searchBar' value={this.getNumbers()} readOnly/>
                 </div>
             </div>
 

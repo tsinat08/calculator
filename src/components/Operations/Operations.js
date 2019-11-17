@@ -4,12 +4,14 @@ import './Operations.css';
 class Operations extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            term: ''
+        }
         this.handleChange = this.handleChange.bind(this)
     }
 
     handleChange(event) {
-        console.log(this);
+
         this.setState({term: event.target.value});
     }
 
@@ -17,10 +19,10 @@ class Operations extends Component {
         return (
             <div className="Operations">
 
-                <input className='ops' placeholder='/' onClick={this.handleChange} readOnly/>
-                <input className='ops' placeholder='*' onClick={this.handleChange} readOnly/>
-                <input className='ops' placeholder='-' onClick={this.handleChange} readOnly/>
-                <input className='ops' placeholder='+' onClick={this.handleChange} readOnly/>
+                <input className='ops' value='/' onClick={this.handleChange} readOnly/>
+                <input className='ops' value='*' onClick={this.handleChange} readOnly/>
+                <input className='ops' value='-' onClick={this.handleChange} readOnly/>
+                <input className='ops' value='+' onClick={this.handleChange} readOnly/>
 
             </div>
 
