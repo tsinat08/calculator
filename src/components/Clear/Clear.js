@@ -15,9 +15,7 @@ class Clear extends Component {
     render() {
         return (
             <div className="Clear">
-                <div className='Clear-field' >
-                    <input className='clear' placeholder='Clear' onClick={this.handleChange} readOnly />
-                </div>
+                <input className='clear' placeholder='Clear' onClick={this.handleChange} readOnly />
             </div>
 
         )

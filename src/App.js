@@ -3,6 +3,7 @@ import './App.css'
 import SearchBar from './components/SearchBar/SearchBar'
 import Numbers from './components/Numbers/Numbers'
 import Clear from './components/Clear/Clear'
+import Operations from './components/Operations/Operations'
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
                 <SearchBar/>
                 <Numbers/>
                 <Clear/>
+                <Operations/>
             </div>
         );
     }
