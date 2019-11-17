@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import './SearchBar.css';
+import './Clear.css';
 
-class SearchBar extends Component {
+class Clear extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            term: '0'
         }
         this.handleChange= this.handleChange.bind(this)
     }
@@ -15,11 +14,9 @@ class SearchBar extends Component {
     }
     render() {
         return (
-            <div className="SearchBar">
-
-
-                <div className='SearchBar-field' >
-                    <input className='searchBar' onChange={this.handleChange} readOnly/>
+            <div className="Clear">
+                <div className='Clear-field' >
+                    <input className='clear' placeholder='Clear' onClick={this.handleChange} readOnly />
                 </div>
             </div>
 
@@ -27,4 +24,4 @@ class SearchBar extends Component {
     }
 
 }
-export default SearchBar;
+export default Clear;
