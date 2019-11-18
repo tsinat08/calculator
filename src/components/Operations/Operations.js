@@ -10,9 +10,9 @@ class Operations extends Component {
         this.handleChange = this.handleChange.bind(this)
     }
 
-    handleChange(event) {
 
-        this.setState({term: event.target.value});
+        handleChange(event){
+            this.props.Matan(event.target.value)
     }
 
     render() {

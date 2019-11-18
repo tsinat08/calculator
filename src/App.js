@@ -23,6 +23,9 @@ class App extends Component {
 
         }
     }
+    getClear(A){
+        this.setState({term: A})
+    }
 
 
     render() {
@@ -30,8 +33,8 @@ class App extends Component {
             <div className='intro'>
                 <SearchBar Rediet={this.state.term}/>
                 <Numbers Lewhat={this.getTerm}/>
-                <Clear/>
-                <Operations/>
+                <Clear  Yotam={this.getClear}/>
+                <Operations Matan={this.getTerm}/>
             </div>
         );
     }
