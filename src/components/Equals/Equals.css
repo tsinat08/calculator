@@ -1,0 +1,12 @@
+.equals{
+    width: 25%;
+    height: 99px;
+    font-size: 35px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    border-color: red;
+}
+
+.equals::placeholder{
+    color: #000000;}
