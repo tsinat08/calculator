@@ -1,12 +1,11 @@
 .Clear {
     display: inline;
     position: absolute;
-    left: 25.5%;
+    left:0;
     bottom: 0;
-    width: -webkit-fill-available;
 }
 .clear{
-    width: 50%;
+    width: 38.5%;
     height: 99px;
     font-size: 35px;
     text-align: center;

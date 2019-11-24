@@ -1,12 +1,17 @@
-.equals{
-    width: 25%;
+.Equals {
+    display: inline;
+    position: absolute;
+    left: 51%;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+.equals {
+    width: 23%;
     height: 99px;
     font-size: 35px;
     text-align: center;
     background: #fff;
     color: #000;
     border-color: red;
+    padding: 0 3px 3px;
 }
-
-.equals::placeholder{
-    color: #000000;}

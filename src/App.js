@@ -33,7 +33,7 @@ class App extends Component {
             <div className='intro'>
                 <SearchBar Rediet={this.state.term}/>
                 <Numbers Lewhat={this.getTerm}/>
-                {/*<Clear  Yotam={this.getClear}/>*/}
+                <Clear  Yotam={this.getClear}/>
                 <Operations Matan={this.getTerm}/>
                 <Equals Lilu={this.getTerm}/>
             </div>
