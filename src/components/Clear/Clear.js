@@ -12,7 +12,7 @@ class Clear extends Component {
     render() {
         return (
             <div className="Clear">
-                <input className='clear' placeholder='C' value='' onClick={this.handleChange} readOnly />
+                <input className='clear' value='C' onClick={this.handleChange} readOnly />
             </div>
 
         )

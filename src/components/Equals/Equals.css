@@ -3,10 +3,10 @@
     position: absolute;
     left: 51%;
     bottom: 0;
-    width: -webkit-fill-available;
+    width: 177px;
 }
 .equals {
-    width: 23%;
+    width: 90%;
     height: 99px;
     font-size: 35px;
     text-align: center;

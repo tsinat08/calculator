@@ -8,9 +8,15 @@ class SearchBar extends Component {
         this.getNumbers= this.getNumbers.bind(this)
     }
     getNumbers(){
-        let A =this.props.Rediet;
-        return A;
-    }
+
+        let A = this.props.Rediet;
+        console.log(A)
+            if (A === 'C'){
+                console.clear()
+            }
+            return A
+        }
+
     render() {
         return (
             <div className="SearchBar">
