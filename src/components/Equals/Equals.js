@@ -51,7 +51,6 @@ class Equals extends Component {
         }if (operand === '/'){
             result= division(sptNumbers[0], sptNumbers[1])
         }
-        console.log(sptNumbers);
         this.props.Lilu(result);
     }
     render() {

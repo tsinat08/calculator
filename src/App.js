@@ -25,14 +25,18 @@ class App extends Component {
 
         }
     }
+
     getClear() {
            this.setState({term: ''})
-            console.log('are you called?')
+    }
 
-     }
      getResult=(A)=>{
         this.setState({term: A})
+         console.log(`A is ${A}`)
      }
+    getAfterResult = (A) =>{
+
+    }
 
 
 
@@ -42,11 +46,11 @@ class App extends Component {
     render() {
         return (
             <div className='intro'>
-                <SearchBar Rediet={this.state.term}/>
+                <SearchBar Rediet={this.state.term} />
                 <Numbers Lewhat={this.getTerm}/>
                 <Clear  Yotam={this.getClear}/>
                 <Operations Matan={this.getTerm}/>
-                <Equals Yotam={this.getClear} Lilu={this.getResult}/>
+                <Equals Yotam={this.getClear} Lilu={this.getResult} />
             </div>
         );
     }
