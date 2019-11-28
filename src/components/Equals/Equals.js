@@ -9,10 +9,10 @@ const subtraction =(a, b ) => {
     return a- b;
 }
 
-const  multiply = (a, b) =>{
+const  multiplication = (a, b) =>{
     return a*b;
 }
-const divide = (a, b) => {
+const division = (a, b) => {
     return a/b;
 }
 
@@ -32,7 +32,6 @@ class Equals extends Component {
         document.getElementById("equal-btn").value = '';
         if (inputValue.includes('+')){
             operand= '+';
-
         }else if (inputValue.includes('-')) {
             operand ='-';
         }else if (inputValue.includes('*')){
@@ -45,6 +44,12 @@ class Equals extends Component {
         })
         if (operand === '+'){
             result= addition(sptNumbers[0], sptNumbers[1])
+        }else if (operand === '-'){
+            result= subtraction(sptNumbers[0], sptNumbers[1])
+        }if (operand === '*'){
+            result= multiplication(sptNumbers[0], sptNumbers[1])
+        }if (operand === '/'){
+            result= division(sptNumbers[0], sptNumbers[1])
         }
         console.log(sptNumbers);
         this.props.Lilu(result);
@@ -54,8 +59,6 @@ class Equals extends Component {
             <div className="Equals">
                 <div className='Equals-field' >
                     <input className='equals' value='=' onClick={this.handleChange} readOnly />
-
-
                 </div>
             </div>
 
