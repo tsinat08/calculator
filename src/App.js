@@ -13,7 +13,8 @@ class App extends Component {
             term: ''
         }
         this.getTerm=this.getTerm.bind(this);
-        // this.getClear=this.getClear.bind(this);
+        this.getClear=this.getClear.bind(this);
+
     }
     getTerm(A) {
         if(this.state.term.length<=0){
@@ -24,10 +25,14 @@ class App extends Component {
 
         }
     }
-    // getClear(A) {
-    //         this.setState({term: A})
+    getClear() {
+           this.setState({term: ''})
+            console.log('are you called?')
 
-    // }
+     }
+     getResult=(A)=>{
+        this.setState({term: A})
+     }
 
 
 
@@ -39,9 +44,9 @@ class App extends Component {
             <div className='intro'>
                 <SearchBar Rediet={this.state.term}/>
                 <Numbers Lewhat={this.getTerm}/>
-                <Clear  Yotam={this.getTerm}/>
+                <Clear  Yotam={this.getClear}/>
                 <Operations Matan={this.getTerm}/>
-                <Equals Lilu={this.getTerm}/>
+                <Equals Yotam={this.getClear} Lilu={this.getResult}/>
             </div>
         );
     }

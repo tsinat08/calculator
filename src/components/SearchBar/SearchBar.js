@@ -21,7 +21,7 @@ class SearchBar extends Component {
         return (
             <div className="SearchBar">
                 <div className='SearchBar-field' >
-                    <input className='searchBar' value={this.getNumbers()} readOnly/>
+                    <input  id='equal-btn' className='searchBar' value={this.getNumbers()} readOnly/>
                 </div>
             </div>
 
