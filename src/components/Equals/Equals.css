@@ -1,17 +1,17 @@
 .Equals {
     display: inline;
     position: absolute;
-    left: 51%;
+    right: 1%;
     bottom: 0;
-    width: 177px;
+    width: 47%;
 }
 .equals {
-    width: 90%;
-    height: 99px;
+    width: 100%;
+    height: 67px;
     font-size: 35px;
     text-align: center;
-    background: #fff;
+    background: lightgray;
     color: #000;
-    border-color: red;
-    padding: 0 3px 3px;
+    /* border-color: red; */
+    padding: 0 0px 2px;
 }

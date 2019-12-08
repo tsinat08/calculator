@@ -3,15 +3,14 @@
     position: absolute;
     left:0;
     bottom: 0;
-    width: 177px;
 }
 .clear{
-    width: 96%;
-    height: 99px;
+    width: 52%;
+    height: 67px;
     font-size: 35px;
     text-align: center;
-    background: #fff;
+    background: lightgray;
     color: #000;
-    border-color: red;
-    padding: 0 3px 3px;
+    /* border-color: red; */
+    padding: 0 0px 2px;
 }

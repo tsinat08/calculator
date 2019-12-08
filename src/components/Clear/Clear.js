@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-//import './Clear.css';
+import './Clear.css';
 
 class Clear extends Component {
     constructor(props) {
