@@ -24,6 +24,7 @@ class Numbers extends Component {
                     <input className='numbers' value='2' onClick={this.handleChange} readOnly />
                     <input className='numbers' value='3' onClick={this.handleChange} readOnly />
                     <input className='numbers0' value='0' onClick={this.handleChange} readOnly />
+                    <input className='numbers' value='.' onClick={this.handleChange} readOnly />
 
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Equals.css';
+//import './Equals.css';
 
 const addition =(a, b) => {
     return a + b;

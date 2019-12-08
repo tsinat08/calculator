@@ -1,24 +1,24 @@
 .numbers{
     width: 25%;
-    height: 99px;
+    height: 67px;
     font-size: 35px;
     text-align: center;
     background: #fff;
     color: #000;
-    border-color: red;
+    /*border-color: red;*/
 }
 
 .numbers::placeholder{
     color: #000000;}
 .numbers0{
-    width: 24.5%;
-    height: 99px;
+    width: 51%;
+    height: 67px;
     font-size: 35px;
     text-align: center;
     background: #fff;
     color: #000;
-    border-color: red;
-    padding: 0 3px 3px;
-    position: relative;
-    left: 25.5%;
+    /*border-color: red;*/
+    /*padding: 0 2px 2px;*/
+    /*position: relative;*/
+    /*left: 25.5%;*/
 }
