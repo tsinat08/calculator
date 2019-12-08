@@ -10,11 +10,14 @@ class SearchBar extends Component {
     getNumbers(){
 
         let A = this.props.Rediet;
-        console.log(A)
+
             if (A === 'C'){
                 console.clear()
+            }else{
+               A= this.props.Rediet;
             }
             return A
+
         }
 
     render() {
