@@ -20,9 +20,8 @@ class App extends Component {
         if(this.state.term.length<=0){
             this.setState({term: A})
         }else {
-            let D = this.state.term.concat(A)
+            let D = this.state.term.toString().concat(A)
             this.setState({term: D})
-
         }
     }
 

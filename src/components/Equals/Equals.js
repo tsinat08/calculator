@@ -1,20 +1,7 @@
 import React, {Component} from 'react';
+import evaluate from './evaluate';
 import './Equals.css';
 
-const addition =(a, b) => {
-    return a + b;
-}
-
-const subtraction =(a, b ) => {
-    return a- b;
-}
-
-const  multiplication = (a, b) =>{
-    return a*b;
-}
-const division = (a, b) => {
-    return a/b;
-}
 
 class Equals extends Component {
     constructor(props) {
@@ -25,34 +12,14 @@ class Equals extends Component {
         this.handleChange = this.handleChange.bind(this)
     }
 
-
-
-    handleChange(event){
-        let inputValue = document.getElementById("equal-btn").value, sptNumbers=[], operand, result ;
+    handleChange(){
+        let inputValue = document.getElementById("equal-btn").value.replace(/[^-()\d/*+.]/g, ''),
+            result ;
         document.getElementById("equal-btn").value = '';
-        if (inputValue.includes('+')){
-            operand= '+';
-        }else if (inputValue.includes('-')) {
-            operand ='-';
-        }else if (inputValue.includes('*')){
-            operand = '*';
-        }else if (inputValue.includes('/')){
-            operand = '/';
-        }
-        inputValue.split(operand).forEach(number => {
-            sptNumbers.push( parseInt(number))
-        })
-        if (operand === '+'){
-            result= addition(sptNumbers[0], sptNumbers[1])
-        }else if (operand === '-'){
-            result= subtraction(sptNumbers[0], sptNumbers[1])
-        }if (operand === '*'){
-            result= multiplication(sptNumbers[0], sptNumbers[1])
-        }if (operand === '/'){
-            result= division(sptNumbers[0], sptNumbers[1])
-        }
+        result = evaluate(inputValue);
         this.props.Lilu(result);
     }
+
     render() {
         return (
             <div className="Equals">
