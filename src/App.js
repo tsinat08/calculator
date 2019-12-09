@@ -34,15 +34,9 @@ class App extends Component {
         this.setState({term: A})
          console.log(`A is ${A}`)
      }
-    getAfterResult = (A) =>{
-
+    getAfterResult = (A) => {
 
     }
-
-
-
-
-
 
     render() {
         return (
