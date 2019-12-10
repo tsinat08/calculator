@@ -2,17 +2,23 @@ import React, {Component} from 'react';
 import './Equals.css';
 
 const addition =(a, b) => {
+    console.log(`Add is ${a + b}`)
     return a + b;
+
 }
 
 const subtraction =(a, b ) => {
+    console.log(`Sub is ${a - b}`)
     return a- b;
+
 }
 
 const  multiplication = (a, b) =>{
+    console.log(`Multi is ${a * b}`)
     return a*b;
 }
 const division = (a, b) => {
+    console.log(`Div is ${a / b}`)
     return a/b;
 }
 
