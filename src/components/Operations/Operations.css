@@ -1,6 +1,6 @@
 .ops {
     width: 96%;
-    height: 67px;
+    height: 65px;
     font-size: 35px;
     text-align: center;
     background: lightgray;
@@ -10,7 +10,7 @@
 .Operations {
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: 4px;
     top: 27%;
     width: 22%;
 }
