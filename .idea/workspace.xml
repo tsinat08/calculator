@@ -26,16 +26,22 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bugfix" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1105" />
-    <option name="y" value="5" />
-    <option name="width" value="2750" />
-    <option name="height" value="2070" />
-  </component>
+  <component name="ProjectId" id="1dhOPPVljbijzfZAYIKnnt2tEcM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -75,6 +81,9 @@
       <workItem from="1575973604138" duration="39000" />
       <workItem from="1575973730486" duration="76000" />
       <workItem from="1576205707936" duration="2051000" />
+      <workItem from="1592873835005" duration="1289000" />
+      <workItem from="1593052213359" duration="3397000" />
+      <workItem from="1593135321374" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="add App.js">
       <created>1573950589624</created>
@@ -237,7 +246,35 @@
       <option name="project" value="LOCAL" />
       <updated>1592616390436</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add server">
+      <created>1592616556259</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1592616556259</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bugfix">
+      <created>1592873904342</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1592873904342</updated>
+    </task>
+    <task id="LOCAL-00026" summary="bugfix">
+      <created>1593054594983</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1593054594983</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bugfix">
+      <created>1593055589739</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1593055589739</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,20 +289,45 @@
     <MESSAGE value="clear works &#10;equals sign works" />
     <MESSAGE value="cleaning up" />
     <MESSAGE value="add server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add server" />
+    <MESSAGE value="bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1592616389827">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1593135687416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592616389827" />
-    <state x="483" y="129" key="MultipleFileMergeDialog" timestamp="1592616347051">
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593135687416" />
+    <state x="148" y="66" key="DiffContextDialog" timestamp="1593135748187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592616347051" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1592616392205">
+    <state x="148" y="66" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1593135748187" />
+    <state width="757" height="211" key="GridCell.Tab.0.bottom" timestamp="1592616657782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592616392205" />
+    <state width="757" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592616657782" />
+    <state width="757" height="211" key="GridCell.Tab.0.center" timestamp="1592616657782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592616657782" />
+    <state width="757" height="211" key="GridCell.Tab.0.left" timestamp="1592616657782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592616657782" />
+    <state width="757" height="211" key="GridCell.Tab.0.right" timestamp="1592616657782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="757" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592616657782" />
+    <state x="483" y="129" key="MultipleFileMergeDialog" timestamp="1593135766337">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1593135766337" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1593135690787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593135690787" />
+    <state x="551" y="126" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593135750466">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="126" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1593135750466" />
   </component>
 </project>
