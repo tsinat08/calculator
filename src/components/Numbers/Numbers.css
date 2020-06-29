@@ -1,6 +1,10 @@
+.numbers-box{
+    width: 75%;
+    height: 60%;
+}
 .numbers{
-    width: 24%;
-    height: 65px;
+    width: 30.5%;
+    height: 22%;
     font-size: 35px;
     text-align: center;
     background: #fff;
@@ -11,8 +15,8 @@
 .numbers::placeholder{
     color: #000000;}
 .numbers0{
-    width: 50%;
-    height: 65px;
+    width: 64%;
+    height: 22%;
     font-size: 35px;
     text-align: center;
     background: #fff;

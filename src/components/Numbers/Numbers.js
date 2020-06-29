@@ -11,8 +11,8 @@ class Numbers extends Component {
     }
     render() {
         return (
-            <div className="Numbers">
-                <div className='Numbers-field' >
+            <div className="numbers-box">
+
                     <input className='numbers' value='7' onClick={this.handleChange} readOnly />
                     <input className='numbers' value='8' onClick={this.handleChange} readOnly />
                     <input className='numbers' value='9' onClick={this.handleChange} readOnly />
@@ -25,7 +25,6 @@ class Numbers extends Component {
                     <input className='numbers0' value='0' onClick={this.handleChange} readOnly />
                     <input className='numbers' value='.' onClick={this.handleChange} readOnly />
 
-                </div>
             </div>
 
         )
