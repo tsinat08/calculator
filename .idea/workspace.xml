@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58fe4ec9-c6d3-4d4f-a950-c83f6781e9ca" name="Default Changelist" comment="">
+    <list default="true" id="35a9770e-b5ba-4e93-a292-39d4da188810" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Equals/Equals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equals/Equals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Equals/Equals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equals/Equals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
