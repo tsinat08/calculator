@@ -61,11 +61,7 @@ class Equals extends Component {
     }
     render() {
         return (
-            <div className="Equals">
-                <div className='Equals-field' >
                     <input className='equals' value='=' onClick={this.handleChange} readOnly />
-                </div>
-            </div>
 
         )
     }

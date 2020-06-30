@@ -1,17 +1,8 @@
-.Equals {
-    display: inline;
-    position: absolute;
-    right: 1%;
-    bottom: 0;
-    width: 47%;
-}
 .equals {
-    width: 100.5%;
-    height: 69px;
+    width: 48%;
+    height: 100%;
     font-size: 35px;
     text-align: center;
     background: lightgray;
     color: #000;
-    /* border-color: red; */
-    padding: 0 0px 2px;
-}
+   }
