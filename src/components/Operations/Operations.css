@@ -5,13 +5,7 @@
     text-align: center;
     background: lightgray;
     color: #000;
-    /*border-color: red;*/
 }
 .Operations {
-    /*display: inline-block;*/
-    /*position: absolute;*/
-    left: 4px;
-    bottom: 0%;
-    width: 25%;
-    height: 60%;
+    height: 80%;
 }

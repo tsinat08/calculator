@@ -4,8 +4,9 @@
     <list default="true" id="35a9770e-b5ba-4e93-a292-39d4da188810" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1593983717769" duration="206000" />
       <workItem from="1594465563793" duration="85000" />
       <workItem from="1594601980345" duration="3867000" />
-      <workItem from="1594772335843" duration="1569000" />
+      <workItem from="1594772335843" duration="2826000" />
     </task>
     <task id="LOCAL-00001" summary="add App.js">
       <created>1573950589624</created>
@@ -353,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594602265786</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fixing error with iphone">
+      <created>1594774760640</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1594774760640</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,10 +387,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593389995765" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1594602264801">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1594774759875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594602264801" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594774759875" />
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1593390825176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -407,10 +415,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592616347051" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594602269978">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594774762672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594602269978" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594774762672" />
     <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594602137316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

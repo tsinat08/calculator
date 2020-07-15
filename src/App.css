@@ -6,8 +6,11 @@
     position: relative;
 }
 .ops-equals{
-    width: 100%;
-    height: 13.7%;
+    position: absolute;
+    right: 3px;
+    top: 25%;
+    width: 25%;
+    height: 75%;
 }
 .clear-sign{
     width: 75%;

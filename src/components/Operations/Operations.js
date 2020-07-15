@@ -18,7 +18,6 @@ class Operations extends Component {
     render() {
         return (
             <div className="Operations">
-
                 <input className='ops' value='/' onClick={this.handleChange} readOnly/>
                 <input className='ops' value='*' onClick={this.handleChange} readOnly/>
                 <input className='ops' value='-' onClick={this.handleChange} readOnly/>
