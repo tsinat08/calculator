@@ -41,10 +41,12 @@ class App extends Component {
         return (
             <div className='intro'>
                 <SearchBar Rediet={this.state.term} />
+                <div className='clear-sign'>
+                     <Clear  Yotam={this.getClear}/>
+                </div>
                 <Numbers Lewhat={this.getTerm}/>
-                <Operations Matan={this.getTerm}/>
-                <div className='clear-equals'>
-                    <Clear  Yotam={this.getClear}/>
+                <div className='ops-equals'>
+                    <Operations Matan={this.getTerm}/>
                     <Equals Yotam={this.getClear} Lilu={this.getResult} />
                 </div>
             </div>

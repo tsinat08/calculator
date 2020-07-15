@@ -9,9 +9,9 @@
 }
 .Operations {
     /*display: inline-block;*/
-    position: absolute;
-    right: 4px;
-    top: 25%;
+    /*position: absolute;*/
+    left: 4px;
+    bottom: 0%;
     width: 25%;
     height: 60%;
 }
