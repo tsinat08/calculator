@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a9770e-b5ba-4e93-a292-39d4da188810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Percent/Percent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Percent/Percent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sign/Sign.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sign/Sign.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Equals/Equals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equals/Equals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594776234664</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fixing error with iphone">
+      <created>1594829623797</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1594829623797</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,10 +412,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593389995765" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1594776234112">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1594829622855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594776234112" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594829622855" />
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1593390825176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -430,10 +440,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592616347051" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594776236513">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594829626128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594776236513" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594829626128" />
     <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594602137316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

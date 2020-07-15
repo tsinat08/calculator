@@ -5,9 +5,7 @@ class Percent extends Component {
 
     render() {
         return (
-            <div>
-                <input className='clear' value='C' onClick={this.handleClear} readOnly />
-            </div>
+                <input className='percent' value='%' readOnly />
         )
     }
 

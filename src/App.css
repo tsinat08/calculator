@@ -9,13 +9,12 @@
     position: absolute;
     right: 3px;
     top: 25%;
-    width: 25%;
+    width: 25.5%;
     height: 75%;
 }
 .clear-sign{
     width: 75%;
     height: 15%;
-    text-align: center;
     background: #fff;
     color: #000;
 }
