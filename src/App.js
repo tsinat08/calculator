@@ -5,6 +5,8 @@ import Numbers from './components/Numbers/Numbers'
 import Clear from './components/Clear/Clear'
 import Operations from './components/Operations/Operations'
 import Equals from './components/Equals/Equals'
+import Sign from "./components/Sign/Sign";
+import Percent from "./components/Percent/Percent";
 
 class App extends Component {
     constructor(props){
@@ -43,6 +45,8 @@ class App extends Component {
                 <SearchBar Rediet={this.state.term} />
                 <div className='clear-sign'>
                      <Clear  Yotam={this.getClear}/>
+                     <Sign />
+                     <Percent />
                 </div>
                 <Numbers Lewhat={this.getTerm}/>
                 <div className='ops-equals'>
