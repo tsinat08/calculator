@@ -39,8 +39,8 @@ class App extends Component {
 
      }
 
-     getPercent (){
-
+     getPercent=(A)=>{
+         this.setState({term: A})
      }
 
 
