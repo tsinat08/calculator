@@ -11,7 +11,6 @@ class Percent extends Component {
         let inputValue = document.getElementById("equal-btn").value, sptNumbers = [], operand, result;
         document.getElementById("equal-btn").value = '';
         result = inputValue/100;
-        console.log('resl ', result)
         this.props.Percent(result);
     }
     render() {

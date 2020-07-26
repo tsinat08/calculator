@@ -8,7 +8,6 @@ class Numbers extends Component {
     }
     handleChange(event){
         this.props.Lewhat(event.target.value)
-        console.log(typeof (event.target.value), event.target.value)
     }
     render() {
         return (

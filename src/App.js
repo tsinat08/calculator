@@ -35,8 +35,8 @@ class App extends Component {
         this.setState({term: A})
      }
 
-     getSign () {
-
+     getSign=(A)=>{
+         this.setState({term: A})
      }
 
      getPercent=(A)=>{

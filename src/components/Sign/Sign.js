@@ -4,14 +4,19 @@ import './Sign.css';
 class Sign extends Component {
     constructor(props) {
         super(props);
-        this.handleClear= this.handleClear.bind(this)
+
+        this.handleChange = this.handleChange.bind(this)
     }
-    handleClear(event) {
-        this.props.Sign(event.target.value)
+    handleChange(event) {
+        let inputValue = document.getElementById("equal-btn").value, sptNumbers = [], operand, result;
+        document.getElementById("equal-btn").value = '';
+        result = inputValue*-1;
+        this.props.Sign(result);
     }
+
     render() {
         return (
-                <input className='sign' value='+/-' onClick={this.handleClear} readOnly />
+                <input className='sign' value='+/-' onClick={this.handleChange} readOnly />
         )
     }
 
