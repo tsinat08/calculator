@@ -33,11 +33,17 @@ class App extends Component {
 
      getResult=(A)=>{
         this.setState({term: A})
-         console.log(`A is ${A}`)
      }
-    getAfterResult = (A) => {
 
-    }
+     getSign () {
+
+     }
+
+     getPercent (){
+
+     }
+
+
 
     render() {
         return (
@@ -45,8 +51,8 @@ class App extends Component {
                 <SearchBar Rediet={this.state.term} />
                 <div className='clear-sign'>
                      <Clear  Yotam={this.getClear}/>
-                     <Sign />
-                     <Percent />
+                     <Sign Sign={this.getSign}/>
+                     <Percent Percent={this.getPercent}/>
                 </div>
                 <Numbers Lewhat={this.getTerm}/>
                 <div className='ops-equals'>

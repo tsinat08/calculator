@@ -13,6 +13,7 @@ class Operations extends Component {
 
         handleChange(event){
             this.props.Matan(event.target.value)
+            console.log(event.target.value)
     }
 
     render() {

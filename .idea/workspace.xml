@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="35a9770e-b5ba-4e93-a292-39d4da188810" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Equals/Equals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equals/Equals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Equals/Equals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equals/Equals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Equals/evaluate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equals/evaluate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,6 +58,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,6 +106,8 @@
       <workItem from="1594465563793" duration="85000" />
       <workItem from="1594601980345" duration="3867000" />
       <workItem from="1594772335843" duration="3093000" />
+      <workItem from="1595400260533" duration="5000" />
+      <workItem from="1595465945061" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="add App.js">
       <created>1573950589624</created>
@@ -386,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594829623797</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fixing error with iphone">
+      <created>1594830659764</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1594830659764</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,10 +422,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593389995765" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1594829622855">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1594830658944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594829622855" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594830658944" />
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1593390825176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -440,10 +450,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592616347051" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594829626128">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1594830661536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594829626128" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594830661536" />
     <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594602137316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
