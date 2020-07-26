@@ -8,7 +8,7 @@ class Sign extends Component {
         this.handleChange = this.handleChange.bind(this)
     }
     handleChange(event) {
-        let inputValue = document.getElementById("equal-btn").value, sptNumbers = [], operand, result;
+        let inputValue = document.getElementById("equal-btn").value, result;
         document.getElementById("equal-btn").value = '';
         result = inputValue*-1;
         this.props.Sign(result);

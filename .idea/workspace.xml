@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a9770e-b5ba-4e93-a292-39d4da188810" name="Default Changelist" comment="">
+    <list default="true" id="f8272de6-efed-48d4-b8ff-44fc13efe537" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,45 +423,46 @@
     <MESSAGE value="testing" />
     <MESSAGE value="fixing error with iphone" />
     <MESSAGE value="Add %" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add %" />
+    <MESSAGE value="Add % and -/+" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add % and -/+" />
   </component>
   <component name="WindowStateProjectService">
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593389995765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593389995765" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1595731873618">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1595733171814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595731873618" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595733171814" />
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1593390825176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593390825176" />
-    <state width="757" height="211" key="GridCell.Tab.0.bottom" timestamp="1593391003984">
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1595733495114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593391003984" />
-    <state width="757" height="211" key="GridCell.Tab.0.center" timestamp="1593391003984">
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595733495114" />
+    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1595733495114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593391003984" />
-    <state width="757" height="211" key="GridCell.Tab.0.left" timestamp="1593391003983">
+    <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595733495114" />
+    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1595733495114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593391003983" />
-    <state width="757" height="211" key="GridCell.Tab.0.right" timestamp="1593391003984">
+    <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595733495114" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1595733495114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="757" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593391003984" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595733495114" />
     <state x="483" y="129" key="MultipleFileMergeDialog" timestamp="1592616347051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592616347051" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1595731876356">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1595733210030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595731876356" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595733210030" />
     <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594602137316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
