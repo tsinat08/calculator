@@ -15,7 +15,7 @@ class Percent extends Component {
     }
     render() {
         return (
-                <input className='percent' value='%' onClick={this.handleChange}  readOnly />
+                <input className='sign' value='%' onClick={this.handleChange}  readOnly />
         )
     }
 

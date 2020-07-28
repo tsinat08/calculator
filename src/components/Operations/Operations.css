@@ -1,11 +1,8 @@
 .ops {
     width: 96%;
-    height: 23%;
+    height: 17%;
     font-size: 200%;
     text-align: center;
     background: lightgray;
     color: #000;
-}
-.Operations {
-    height: 80%;
 }

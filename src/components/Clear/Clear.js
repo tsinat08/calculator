@@ -11,7 +11,7 @@ class Clear extends Component {
     }
     render() {
         return (
-                     <input className='clear' value='C' onClick={this.handleClear} readOnly />
+                     <input className='sign' value='C' onClick={this.handleClear} readOnly />
 
         )
     }

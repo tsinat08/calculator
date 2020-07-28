@@ -51,7 +51,7 @@ class App extends Component {
                 <SearchBar Rediet={this.state.term} />
                 <div className='clear-sign'>
                      <Clear  Yotam={this.getClear}/>
-                     <Sign Sign={this.getSign}/>
+                     <Sign  Sign={this.getSign}/>
                      <Percent Percent={this.getPercent}/>
                 </div>
                 <Numbers Lewhat={this.getTerm}/>

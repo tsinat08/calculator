@@ -60,7 +60,7 @@ class Equals extends Component {
     }
     render() {
         return (
-                    <input className='equals' value='=' onClick={this.handleChange} readOnly />
+                    <input className='ops' value='=' onClick={this.handleChange} readOnly />
 
         )
     }
