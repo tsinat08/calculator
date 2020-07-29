@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './Percent.css';
+import '../Equals/Equals.css';
+
 
 class Percent extends Component {
     constructor(props) {

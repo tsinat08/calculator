@@ -49,15 +49,17 @@ class App extends Component {
         return (
             <div className='intro'>
                 <SearchBar Rediet={this.state.term} />
-                <div className='clear-sign'>
-                     <Clear  Yotam={this.getClear}/>
-                     <Sign  Sign={this.getSign}/>
-                     <Percent Percent={this.getPercent}/>
-                </div>
-                <Numbers Lewhat={this.getTerm}/>
-                <div className='ops-equals'>
-                    <Operations Matan={this.getTerm}/>
-                    <Equals Yotam={this.getClear} Lilu={this.getResult} />
+                <div className='container'>
+                    <div className='clear-sign'>
+                         <Clear  Yotam={this.getClear}/>
+                         <Sign  Sign={this.getSign}/>
+                         <Percent Percent={this.getPercent}/>
+                    </div>
+                    <Numbers Lewhat={this.getTerm}/>
+                    <div className='ops-equals'>
+                        <Operations Yotam={this.getClear} Lilu={this.getResult}  Matan={this.getTerm}/>
+                        {/*<Equals />*/}
+                    </div>
                 </div>
             </div>
         );

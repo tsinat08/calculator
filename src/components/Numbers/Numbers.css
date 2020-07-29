@@ -1,6 +1,9 @@
 .numbers-box{
     width: 75%;
-    height: 60%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left: 1px;
 }
 
 .numbers::placeholder{
@@ -8,16 +11,16 @@
 }
 
 .numbers{
-    width: 30%;
-    height: 23%;
+    width: 32.5%;
+    height: 25%;
     font-size: 200%;
     text-align: center;
     background: #fff;
     color: #000;
 }
 .numbers0 {
-    width: 63%;
-    height: 23%;
+    width: 65.5%;
+    height: 25%;
     font-size: 200%;
     text-align: center;
     background: #fff;
