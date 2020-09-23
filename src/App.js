@@ -1,4 +1,4 @@
-x`import React, {Component} from 'react';
+`import React, {Component} from 'react';
 import './App.css'
 import SearchBar from './components/SearchBar/SearchBar'
 import Numbers from './components/Numbers/Numbers'
