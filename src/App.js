@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+x`import React, {Component} from 'react';
 import './App.css'
 import SearchBar from './components/SearchBar/SearchBar'
 import Numbers from './components/Numbers/Numbers'
 import Clear from './components/Clear/Clear'
 import Operations from './components/Operations/Operations'
-import Equals from './components/Equals/Equals'
+// import Equals from './components/Equals/Equals'
 import Sign from "./components/Sign/Sign";
 import Percent from "./components/Percent/Percent";
 
