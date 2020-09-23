@@ -20,28 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8272de6-efed-48d4-b8ff-44fc13efe537" name="Default Changelist" comment="Add % and -/+">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CALCULATOR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CALCULATOR.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clear/Clear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clear/Clear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Numbers/Numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Numbers/Numbers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Operations/Operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Operations/Operations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Percent/Percent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Percent/Percent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sign/Sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sign/Sign.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +125,7 @@
       <workItem from="1595465945061" duration="7598000" />
       <workItem from="1595803179000" duration="2123000" />
       <workItem from="1595901173622" duration="16797000" />
-      <workItem from="1600870888028" duration="1860000" />
+      <workItem from="1600870888028" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="add App.js">
       <created>1573950589624</created>
@@ -468,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595984462744</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add % and -/+">
+      <created>1600880108699</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1600880108699</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,30 +503,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595806679454" />
-    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1596018857634">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1039" height="252" key="GridCell.Tab.0.bottom" timestamp="1600884541442">
+      <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596018857634" />
-    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1596018857634">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1039" height="252" key="GridCell.Tab.0.bottom/0.23.1680.982@0.23.1680.982" timestamp="1600884541442" />
+    <state width="1039" height="252" key="GridCell.Tab.0.center" timestamp="1600884541441">
+      <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596018857634" />
-    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1596018857634">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1039" height="252" key="GridCell.Tab.0.center/0.23.1680.982@0.23.1680.982" timestamp="1600884541441" />
+    <state width="1039" height="252" key="GridCell.Tab.0.left" timestamp="1600884541441">
+      <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596018857634" />
-    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1596018857634">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1039" height="252" key="GridCell.Tab.0.left/0.23.1680.982@0.23.1680.982" timestamp="1600884541441" />
+    <state width="1039" height="252" key="GridCell.Tab.0.right" timestamp="1600884541441">
+      <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596018857634" />
+    <state width="1039" height="252" key="GridCell.Tab.0.right/0.23.1680.982@0.23.1680.982" timestamp="1600884541441" />
     <state x="483" y="129" key="MultipleFileMergeDialog" timestamp="1592616347051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592616347051" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1595984464998">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="396" y="197" key="Vcs.Push.Dialog.v2" timestamp="1600880114231">
+      <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595984464998" />
+    <state x="396" y="197" key="Vcs.Push.Dialog.v2/0.23.1680.982@0.23.1680.982" timestamp="1600880114231" />
     <state x="579" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594602137316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

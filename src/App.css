@@ -7,7 +7,7 @@
 }
 .ops-equals{
     position: absolute;
-    bottom: 0%;
+    top: 0%;
     right: 1px;
     height: 100%;
     width: 25%;
@@ -22,7 +22,7 @@
 }
 .container{
     position: absolute;
-    bottom: 1.5%;
+    bottom: 0%;
     height: 75%;
     width: 100%;
 }
