@@ -29,7 +29,7 @@ class Operations extends Component {
             this.props.Matan(event.target.value)
     }
 
-    handleChange(event){
+    handleChange(){
         let inputValue = document.getElementById("equal-btn").value, sptNumbers=[], operand, result ;
         document.getElementById("equal-btn").value = '';
         if (inputValue.includes('+')){
@@ -65,11 +65,10 @@ class Operations extends Component {
         return (
             <div className="Operations">
                 <input className='ops' value='/' onClick={this.handleEvent} readOnly/>
-                <input className='ops' value='*' onClick={this.handleEvent} readOnly/>
+                <input className='ops' value='&times;' onClick={this.handleEvent} readOnly/>
                 <input className='ops' value='-' onClick={this.handleEvent} readOnly/>
                 <input className='ops' value='+' onClick={this.handleEvent} readOnly/>
                 <input className='ops' value='=' onClick={this.handleChange} readOnly />
-
             </div>
         )
     }
