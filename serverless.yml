@@ -1,0 +1,9 @@
+name: calculator
+component: website
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
+  region: us-east-1
+  bucketName: calculator-tsinat
